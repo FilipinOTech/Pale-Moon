@@ -3035,8 +3035,8 @@ Tab.prototype = {
                isZooming) {
       // In this case, the user pinch-zoomed in, so we don't want to
       // preserve position as we would with reflow-on-zoom.
-      BrowserApp.selectedTab.probablyNeedRefloz = false;
-      BrowserApp.selectedTab._mReflozPoint = null;
+      // BrowserApp.selectedTab.probablyNeedRefloz = false;
+      // BrowserApp.selectedTab._mReflozPoint = null;
     }
 
     if (isZooming &&
